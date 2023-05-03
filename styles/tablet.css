@@ -1,25 +1,26 @@
-@media(min-width: 1200px)  {
+@media(max-width: 1200px) {
     
-    /*Cabeçalho para desktop*/    
-
     .cabecalho{
     width: 100%;
     background-color: rgb(231, 157, 157);
     height: 150px;
     }
+    .logo{
+        margin: auto;
+        display: block;
+    }
     .cabecalho__nav{
         width: 100vw;
         height: 150px;
         padding: 0 15px;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
+        
     }
     .cabecalho__nav a{
+        display: inline-block;
+        margin: auto;
         text-decoration: none;
         color: #FFF;
-        position: relative;
-        left: -85px;
+        padding: 15px;
     }
     .cabecalho__nav a:hover .cabecalho__nav__info{
         padding: 10px;
@@ -29,8 +30,8 @@
         height: 230px;
         color: black;
         position: absolute;
-        top: 84px;
-        border-radius: 0 0 10px 10px;;
+        top: 150px;
+        border-radius: 0 0 10px 10px;
         
     }
     .cabecalho__nav__info{
@@ -43,11 +44,9 @@
     .cabecalho__nav__menu{
         display: none;
     }
-
-
+    
+    
     li{
         list-style: none;
     }
-
-    /*Corpo do site*/
 }

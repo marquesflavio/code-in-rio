@@ -16,7 +16,7 @@ para 3 telas 360px, 768px, 1200px
 
 Dias 1,2
 [X] Página com cabeçalho, logo do evento (criar)
-[] menu de navegação com hover, onde ao passar o mouse, aparece um menu em lista abaixo.
+[X] menu de navegação com hover, onde ao passar o mouse, aparece um menu em lista abaixo.
 [] O Evento (abre uma página secundária com um texto sobre o evento)
 [] Mapa de Setores (pegar desenho de mapa)
 [] Bandas (bandas fictícias)
