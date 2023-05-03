@@ -2,7 +2,7 @@
     
     .cabecalho{
     width: 100%;
-    background-color: rgb(231, 157, 157);
+    background-color: var(--corFundo);
     height: 150px;
     }
     .logo{
@@ -10,7 +10,7 @@
         display: block;
     }
     .cabecalho__nav{
-        width: 100vw;
+        width: 100%;
         height: 150px;
         padding: 0 15px;
         /* display: grid; */
@@ -21,16 +21,16 @@
         display: inline-block;
         margin: auto;
         text-decoration: none;
-        color: #FFF;
+        color: var(--corFonte);
         padding: 15px;
     }
     .cabecalho__nav a:hover .cabecalho__nav__info{
         padding: 10px;
-        background-color: rgb(228, 130, 130);
+        background-color: var(--corSecund);
         display: block;
         width: 260px;
         height: 230px;
-        color: black;
+        color: var(--corFonte);
         position: absolute;
         top: 150px;
         border-radius: 0 0 10px 10px;
@@ -41,7 +41,7 @@
     }
     .cabecalho__nav__info p{
         text-align: justify;
-        color: #FFF;
+        color: var(--corFonte);
     }
     .cabecalho__nav__menu{
         display: none;
@@ -50,5 +50,30 @@
     
     li{
         list-style: none;
+    }
+
+    /*Banner*/
+    .banner{
+        width: 100%;
+        height: 500px;
+    }
+    /*Rodapé*/
+    .rodape{
+        background-color: var(--corFundo);
+        width: 100%;
+        height: 50px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+    }
+    .rodape a{
+        text-decoration: none;
+        color: var(--corFonte);
+        font-size: 12px;
+    }
+    .rodape a:hover{
+        text-decoration: underline;
+        color: #FFF;
     }
 }

@@ -4,6 +4,9 @@
 @import url(mobile.css);
 :root{
     --fonteprincipal: 'Raleway', sans-serif;
+    --corFundo: rgb(59, 151, 125);
+    --corSecund: rgb(76, 201, 165);
+    --corFonte: rgb(51, 8, 10);
 
 }
 *{

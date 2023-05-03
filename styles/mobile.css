@@ -2,5 +2,53 @@
     body{
         background-color: blueviolet;
     }
+    .cabecalho__nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
     
+    }
+    .cabecalho__nav a{
+        display: none;
+
+    }
+    
+    .cabecalho__nav__menu{
+        display: block;
+        color: black;
+    }
+
+    .cabecalho__nav__menu:hover {
+        display: block;
+        background-color: var(--corFundo);
+        cursor: pointer;
+
+    }
+
+    /*Banner*/
+    .banner{
+        width: 100%;
+        height: 500px;
+    }
+
+    /*Rodapé*/
+    .rodape{
+        background-color: var(--corFundo);
+        width: 100%;
+        height: 50px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+    }
+    .rodape a{
+        text-decoration: none;
+        color: var(--corFonte);
+        font-size: 12px;
+    }
+    .rodape a:hover{
+        text-decoration: underline;
+        color: #FFF;
+    }
 }
