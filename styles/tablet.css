@@ -13,6 +13,8 @@
         width: 100vw;
         height: 150px;
         padding: 0 15px;
+        /* display: grid; */
+        
         
     }
     .cabecalho__nav a{
