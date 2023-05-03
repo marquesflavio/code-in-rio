@@ -1,23 +1,49 @@
+@media(min-width: 1200px)  {
+    
 .cabecalho{
-    width: 100%;
-    background-color: rgb(231, 157, 157);
-    height: 150px;
+width: 100%;
+background-color: rgb(231, 157, 157);
+height: 150px;
 }
 .cabecalho__nav{
+    width: 100vw;
     height: 150px;
     padding: 0 15px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .cabecalho__nav a{
     text-decoration: none;
     color: #FFF;
+    position: relative;
+    left: -85px;
 }
-
-.cabecalho__nav__menu{
-    display: none;
+.cabecalho__nav a:hover .cabecalho__nav__info{
+    padding: 10px;
+    background-color: rgb(228, 130, 130);
+    display: block;
+    width: 260px;
+    height: 230px;
+    color: black;
+    position: absolute;
+    top: 84px;
+    border-radius: 0 0 10px 10px;;
+    
+}
 }
 .cabecalho__nav__info{
     display: none;
+}
+.cabecalho__nav__info p{
+    text-align: justify;
+    color: #FFF;
+}
+.cabecalho__nav__menu{
+    display: none;
+}
+
+
+li{
+    list-style: none;
 }

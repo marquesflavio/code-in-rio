@@ -11,16 +11,24 @@ Usar uma tag nova
 Usar uma animação CSS
 
 Objetivo principal:
-Página responsiva com media query, utulizando grid e flexbox
-para 3 telas 360px, 720px, 1440px
+Página responsiva com media query, utilizando grid ou flexbox
+para 3 telas 360px, 768px, 1200px
 
+Dias 1,2
+[X] Página com cabeçalho, logo do evento (criar)
+[] menu de navegação com hover, onde ao passar o mouse, aparece um menu em lista abaixo.
+[] O Evento (abre uma página secundária com um texto sobre o evento)
+[] Mapa de Setores (pegar desenho de mapa)
+[] Bandas (bandas fictícias)
+[] Ingressos (com valores)
+
+Dias 3,4
+[] Um banner do evento
+[] E abaixo, antes do rodapé, uma área de "deixa sua dúvida" para o usário interagir.
+
+Dias 5,6,7
+[] fazer os media queries
 
 --------
-
-Página com cabeçalho, logo do evento (criar), menu de navegação com hover, onde ao passar o mouse, aparece um menu em lista abaixo.
-O Evento (abre uma página secundária com um texto sobre o evento)
-Mapa de Setores (pegar desenho de mapa)
-Bandas (bandas fictícias)
-Ingressos (com valores)
-Um banner do evento.
-E abaixo, antes do rodapé, uma área de "deixa sua dúvida" para o usário interagir.
+Ver como ficaria com BOOTSTRAP posteriormente.
+--------
