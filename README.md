@@ -12,7 +12,7 @@ Usar uma animação CSS
 
 Objetivo principal:
 Página responsiva com media query, utilizando GRID e FLEXBOX
-para 3 telas até 500px, 501px até 1200px, e acima de 1200px
+para 3 telas até 600px, 601px até 999px, e acima de 1000px
 
 Dias 1,2
 [X] Página com cabeçalho, logo do evento (criar)
@@ -29,7 +29,7 @@ Dias 3,4
 
 Dias 5,6
 [] fazer sessão de "contato"
-[] fazer rodapé
+[X] fazer rodapé
 
 --------
 Ver como ficaria com BOOTSTRAP posteriormente.

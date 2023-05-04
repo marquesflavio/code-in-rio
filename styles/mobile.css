@@ -1,24 +1,36 @@
-@media (max-width: 500px) {
-    body{
-        background-color: blueviolet;
+@media (max-width: 600px) {
+    
+    .cabecalho{
+        background-color: var(--corFundo);
+        padding: 15px;
     }
     .cabecalho__nav{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 100%;
-    
+            
     }
-    .cabecalho__nav a{
+    .cabecalho__nav__link{
+        text-decoration: none;
+        color: var(--corFonte);
+        width: 150px;
+        height: 1500px;
+        position: absolute;
+        top: 75px;
+        left: 95px;
+
+
+
+    }
+    .cabecalho__nav__info{
         display: none;
 
     }
-    
     .cabecalho__nav__menu{
         display: block;
         color: black;
     }
-
     .cabecalho__nav__menu:hover {
         display: block;
         background-color: var(--corFundo);
