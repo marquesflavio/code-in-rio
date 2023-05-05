@@ -67,7 +67,11 @@
         display: flex;
         flex-direction: column;
     }
+    /*Contato cliente*/
 
+    .contato-cliente-titulo{
+        text-align: center;
+    }
     .txt{
         width: 200px;
         margin: 10px ;
@@ -91,6 +95,7 @@
         cursor: pointer;
         background-color: lightgreen;
     }
+    
     /*Rodapé*/
     .rodape{
         background-color: var(--corFundo);

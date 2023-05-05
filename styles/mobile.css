@@ -67,6 +67,9 @@
         height: 500px;
     }
     /*Entre em contato*/
+    .contato-cliente-titulo{
+        text-align: center;
+    }
     .txt{
         width: 200px;
         margin: 10px ;
