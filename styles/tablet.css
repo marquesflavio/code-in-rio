@@ -23,10 +23,15 @@
         
     }
     .cabecalho__nav a{
+        background-image: linear-gradient(to right, var(--corFundo), var(--corSecund));
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 5px;
         display: inline-block;
         text-decoration: none;
         color: var(--corFonte);
         padding: 15px;
+    
     }
     .cabecalho__nav a:hover .cabecalho__nav__info{
         padding: 10px;
@@ -58,8 +63,18 @@
 
     /*Banner*/
     .banner{
-        width: 100%;
+        box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.349);
+        margin: auto;
+        text-align: center;
+        background-color: var(--corFundo);
+        width: 80%;
         height: 500px;
+        margin-top: 10px;
+    }
+    .bannerimg{
+        border-radius: 5px;
+        width: 80%;
+        height: 450px;
     }
     .container_contato{
         width: 100%;
@@ -68,6 +83,15 @@
         flex-direction: column;
     }
     /*Contato cliente*/
+    .contato-cliente{
+        box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.349);
+        margin: 10px auto;
+        background-color: var(--corFundo);
+        width: 80%;
+        height: 450px;
+       
+
+    }
 
     .contato-cliente-titulo{
         text-align: center;

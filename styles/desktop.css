@@ -70,12 +70,13 @@
         width: 80%;
         height: 550px;
     }
+    /*Area de contato do cliente*/
     .contato-cliente{
         box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.349);
         margin: 10px auto;
         background-color: var(--corFundo);
         width: 80%;
-        height: 600px;
+        height: 450px;
        
 
     }
@@ -86,7 +87,6 @@
         width: 200px;
         margin: 10px ;
     }
-    
     .container_contato{
         width: 50%;
         height: 400px;

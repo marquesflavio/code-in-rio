@@ -17,6 +17,10 @@
        
     }
     .cabecalho__nav__link{
+        background-image: linear-gradient(to right, var(--corFundo), var(--corSecund));
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 5px;
         width: 70%;
         padding: 10px;
         border: 1px solid black;
@@ -63,10 +67,29 @@
 
     /*Banner*/
     .banner{
-        width: 100%;
+        box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.349);
+        margin: auto;
+        text-align: center;
+        background-color: var(--corFundo);
+        width: 80%;
         height: 500px;
+        margin-top: 10px;
+    }
+    .bannerimg{
+        border-radius: 5px;
+        width: 85%;
+        height: 400px;
     }
     /*Entre em contato*/
+    .contato-cliente{
+        box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.349);
+        margin: 10px auto;
+        background-color: var(--corFundo);
+        width: 80%;
+        height: 450px;
+       
+
+    }
     .contato-cliente-titulo{
         text-align: center;
     }
