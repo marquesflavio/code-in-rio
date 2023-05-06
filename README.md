@@ -25,10 +25,10 @@ Dias 1,2
 Dias 3,4
 [] finalizar o menu de navegação e banner para as três telas
 [X] Um banner do evento
-[] E abaixo, antes do rodapé, uma área para o usário interagir.
+[X] E abaixo, antes do rodapé, uma área para o usário interagir.
 
 Dias 5,6
-[] fazer sessão de "contato"
+[X] fazer sessão de "contato"
 [X] fazer rodapé
 
 --------

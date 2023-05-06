@@ -27,12 +27,12 @@
         top: 20px;
 
     }
-
+    /*mostra o menu no mobile*/
     .show{
         opacity: 1;
         transition: 0.6s;
     }
-    /*esconder o menu*/
+    /*esconder o menu no mobile*/
     .hide{
         opacity: 0;
         transition: 0.6s;

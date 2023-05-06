@@ -1,13 +1,23 @@
-const btn = document.querySelector('.cabecalho__nav__menu')
+const btn = document.querySelector('.cabecalho__nav__menu');
+const enviar = document.querySelector('.enviar');
+const menu = document.querySelectorAll('.cabecalho__nav__link')
 
-btn.addEventListener('click', () => {
-    let menu = document.querySelector('.cabecalho__nav__link')
-
-    if(menu.classList.contains('hide')){ //se o menu tiver a class hide na sua "lista de classes" ele:
-        menu.classList.add('show')//adiciona o show, ao click ou
-        menu.classList.remove('hide')
-    } else{
-        menu.classList.add('hide')// do contrário, ele adiciona a class hide.
-        menu.classList.remove('show')
-    }
+btn.addEventListener('click', ()=>{
+    menu.forEach(() => {
+        if(menu.classList.contains('hide')){
+            menu.classList.remove('hide')
+            menu.classList.add('show')
+        } else {
+            menu.classList.remove('show')
+            menu.classList.add('hide')
+        }
+    })
 })
+
+
+function submeter() {
+    enviar.addEventListener('click', () =>{
+        alert('Obrigado por sua mensagem!')
+
+    })
+}
