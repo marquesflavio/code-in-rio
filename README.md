@@ -23,7 +23,7 @@ Dias 1,2
 [X] Ingressos (com valores)
 
 Dias 3,4
-[] finalizar o menu de navegação e banner para as três telas
+[X] finalizar o menu de navegação e banner para as três telas
 [X] Um banner do evento
 [X] E abaixo, antes do rodapé, uma área para o usário interagir.
 
