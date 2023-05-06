@@ -13,9 +13,14 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.349);
     }
     
     .cabecalho__nav a{
+        background-image: linear-gradient(to right, var(--corFundo), var(--corSecund));
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 5px;
         text-decoration: none;
         color: var(--corFonte);
         position: relative;
@@ -29,9 +34,9 @@
         height: 230px;
         color: rgb(51, 6, 6);
         position: absolute;
-        top: 84px;
+        top: 90px;
         border-radius: 0 0 10px 10px;
-        box-shadow: 8px 10px 10px rgba(0, 0, 0, 0.521)
+        box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.521)
         
     }
     .cabecalho__nav__info{
@@ -52,8 +57,27 @@
 
     /*Banner*/
     .banner{
-        width: 100%;
-        height: 700px;
+        box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.349);
+        margin: auto;
+        text-align: center;
+        background-color: var(--corFundo);
+        width: 80%;
+        height: 600px;
+        margin-top: 10px;
+    }
+    .bannerimg{
+        border-radius: 5px;
+        width: 80%;
+        height: 550px;
+    }
+    .contato-cliente{
+        box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.349);
+        margin: 10px auto;
+        background-color: var(--corFundo);
+        width: 80%;
+        height: 600px;
+       
+
     }
     .contato-cliente-titulo{
         text-align: center;

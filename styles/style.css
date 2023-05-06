@@ -16,4 +16,5 @@
 }
 body{
     font-family: var(--fonteprincipal);
+    background-color: var(--corSecund);
 }

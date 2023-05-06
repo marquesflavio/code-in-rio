@@ -31,6 +31,8 @@ Dias 5,6
 [X] fazer sessão de "contato"
 [X] fazer rodapé
 
+[] colocar música 
+[] colocar vídeo iframe
 --------
 Ver como ficaria com BOOTSTRAP posteriormente.
 --------
